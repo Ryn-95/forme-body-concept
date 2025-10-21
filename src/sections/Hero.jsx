@@ -15,7 +15,7 @@ const Hero = () => {
         <div 
           className="w-full h-full transition-transform duration-1000"
           style={{
-            backgroundImage: 'url(/src/image/magnifique-lever-de-soleil-dans-un-matin-d-aout-a-durdle-door-dans-le-dorset-en-angleterre.jpg)',
+            backgroundImage: 'url(/images/lever-soleil.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             transform: isVisible ? 'scale(1)' : 'scale(1.1)',
