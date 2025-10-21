@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll pour toute la page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset et styles globaux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Typographie globale */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+p {
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+/* Classes utilitaires personnalisées */
+@layer utilities {
+  .text-ultra-light {
+    font-weight: 200;
+  }
+  
+  .tracking-ultra-wide {
+    letter-spacing: 0.25em;
+  }
+  
+  .tracking-extra-wide {
+    letter-spacing: 0.3em;
+  }
+}
+
